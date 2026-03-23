@@ -178,7 +178,7 @@ export default function Home() {
                 onClick={() => setSelectedApp(app)}
                 className="group block cursor-pointer text-left"
               >
-                <Card className="flex h-64 flex-col transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-lg hover:ring-zinc-300">
+                <Card className="flex h-64 flex-col transition-all duration-200 ease-out hover:-translate-y-2 hover:shadow-[0_12px_28px_-4px_rgba(0,0,0,0.15)] hover:ring-zinc-300">
                   <CardHeader>
                     <div className="flex flex-col items-center gap-3 text-center">
                       <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-zinc-900 text-white">
